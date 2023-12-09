@@ -1,4 +1,7 @@
 # lstty
+
+<a href="https://crates.io/crates/lstty"><img src=https://img.shields.io/crates/v/lstty></img></a>
+
 This is a simple terminal tool to list what serial ports there are.  It prints the name of the serial port, what type of port it is, and if it's a USB port it will print the VID and PID and product name.  At the minute that's all it does.  There aren't any command line parameters.  It's just `lstty`.
 
 An example of this program's output:
@@ -11,6 +14,10 @@ $ lstty
 ```
 
 This program has a little bit of logging that can be enabled using the `RUST_LOG=<level>` environment variable.  `<level>` can be one of `trace`, `debug`, `info`, `warn`, or `error`.
+
+# Installing
+
+The tool can be installed from [crates.io](https://crates.io/crates/lstty) by running `cargo install lstty`.
 
 # Building
 This project is made with Rust, so make sure cargo is installed.  To build, just run `cargo build`, and to run use `cargo run`.
