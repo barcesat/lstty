@@ -1,0 +1,2 @@
+[console_scripts]
+lstty = lstty.cli:main
