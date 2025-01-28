@@ -1,7 +1,3 @@
-Your README structure is mostly clear, but there are a few inconsistencies and redundancies. Here's an improved and correctly ordered version:
-
----
-
 # lstty
 
 `lstty` is a Python-based command-line tool to list available serial ports. It prints the name of the serial port, the type of port, and if it's a USB port, it will include the VID, PID, and product name. Currently, there are no command-line parameters—just run `lstty` to see the output.
@@ -55,13 +51,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## Acknowledgments
 
 This tool was inspired by the original [lstty](https://github.com/atctwo/lstty) project by [@atctwo](https://github.com/atctwo). Special thanks to the original author for creating the Rust-based implementation that served as the foundation for this Python adaptation.
-
----
-
-### Key Adjustments:
-1. **Order Consistency**: Installation and dependencies should come before building.
-2. **Rust Section Clarification**: Make it clear that the Rust section pertains to the original version, as this adaptation is Python-based.
-3. **Example Output Placement**: The example output should be part of the "Features" section for better flow.
-4. **Consistency in Headers**: Use consistent header sizes and language for clarity.
-
-This refined structure ensures clarity, proper organization, and ease of understanding for users and contributors.
